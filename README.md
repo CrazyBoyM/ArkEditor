@@ -4,4 +4,4 @@
 ![预览][1]  
 
 
-[1]:https://cdn.jsdelivr.net/gh/CrazyBoyM/ArkEditor/img/ArkEditor01.jpg "预览界面"
+[1]:img/ArkEditor01.jpg "预览界面"
