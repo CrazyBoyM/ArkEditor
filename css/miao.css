@@ -1,0 +1,107 @@
+	#miao-menu {
+	    height: 30px;
+	    margin: 0;
+	}
+	  
+	#miao-menu ul {
+	    list-style: none;
+	    margin: 10px 20px;
+	}
+	  
+	#miao-menu li {
+		color:#ddd;
+	    display: block;
+	    float: left;
+	    padding: 10px;
+	}
+	#miao-menu li:hover{
+		transform:translate3d(0,3px,0);
+	    background-color: #272d3b;
+	}
+	#miao-menu2 {
+	    height: 30px;
+	    margin: 0;
+	    position: absolute;
+	    top:10px;
+	    right:30px;
+	}
+	  
+	#miao-menu2 ul {
+	    list-style: none;
+	    margin: 10px 3px;
+	}
+	  
+	#miao-menu2 li {
+		cursor: pointer;
+		color:#ddd;
+	    display: block;
+	    float: right;
+	    padding: 10px;
+	}
+	#miao-menu2 li:hover{
+		font-weight: bold;
+	    background-color: #272d3b;
+	}
+	#miao-menu2 li ul{
+		display: none;
+	}
+	#miao-menu2 li:hover ul{
+		display: block;
+	}
+	#miaopreview span{
+		font-size: 17px;
+		font-weight: 520;
+		word-wrap:break-word;
+		word-break:break-word;; 
+		font-family: "YaHei Consolas Hybrid", Consolas, "微软雅黑", "Meiryo UI", "Malgun Gothic", "Segoe UI", "Trebuchet MS", Helvetica, "Monaco", courier, monospace;
+	}
+	#miaopreview span img{
+		display: inline-block;
+		max-width: 47vw;
+		max-height:22vw;
+		margin: 15px auto;
+		border-radius: 15px;
+		box-shadow: 0 0 6px 3px #333;
+	}
+	#miaopreview span blockquote{
+		border-left: 5px solid #ddd;
+		background: #eee;
+		border-radius: 5px;
+		padding: 5px 10px;
+	}
+	#miaopreview span pre{
+		background: #eee;
+		border-radius: 9px;
+		padding: 5px 10px;
+	}
+    ::-webkit-scrollbar
+    {
+        width: 10px;
+        height: 10px;
+    }
+    ::-webkit-scrollbar-track
+    {
+        border-radius: 0px;
+        background: none;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        border-radius: 5px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2);
+        background-color: rgba(255,255,255,.75)
+    }
+    ::-webkit-scrollbar-thumb:hover
+    {
+        border-radius: 5px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2);
+        background-color: rgba(85, 85, 85, 0.4);
+    }
+	p,label{
+		margin: .9em 0 !important;
+	}
+	#text{
+		padding: 10px;
+	}
+	@media (max-width:768px){
+		
+	}
