@@ -4,4 +4,4 @@
 ![预览][1]  
 
 
-[1]:img/ArkEditor01.jpg "预览界面"
+[1]:https://github.com/CrazyBoyM/ArkEditor/blob/master/img/ArkEditor01.jpg "预览界面"
